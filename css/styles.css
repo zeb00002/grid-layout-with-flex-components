@@ -25,3 +25,26 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /* not abhay's*/
+
+  .emojis{
+      display:grid;
+      grid-template-columns: repeat(2,26em);
+      grid-template-rows: 304px,332px;
+      gap:16px;
+  }
+
+  .emoji{
+      display:flex;
+      flex-direction: column;
+  }
+
+  .icon{
+      order:-1;
+      text-align:center;
+  }
+
+  .emoji p{
+      flex-grow: 1;
+  }
